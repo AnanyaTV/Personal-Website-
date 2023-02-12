@@ -1,1 +1,1 @@
-This is a project to create a simple personal portfolio website using HTML,CSS and Javascript.
+This is a project to create a simple personal portfolio website using HTML,CSS and Javascript. This is my first website.
