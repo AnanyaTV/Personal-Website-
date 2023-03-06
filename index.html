@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya TV</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!--Header Section-->
+    <header>
+        <div class="container">
+            <div id="caption">
+                <h1><span class="logo-gold">Ananya</span> TV</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Header Section End-->
+    <!--Hero Section-->
+    <section>
+        <div class="container">
+            <div>
+                <h4>Hi I am</h4>
+                <h1>Ananya TV</h1>
+                <button>Download CV</button>
+            </div>
+        </div>
+    </section>
+    <!--Hero Section End-->
+    <section id="seperate"></section>
+    <!--About Section-->
+    <section id="about">
+        <div class="container">
+            <div class="about-box1">
+                <img src="20221112_115533_remastered.jpg" alt="Profile Pic" height="500px" width="300px">
+            </div>
+            <div class="about-box2">
+                <h2>About Me</h2>
+                <p1>I am Ananya TV, currently pursuing B.tech degree in Electronics and Communication Engineering from
+                    Government College of Engineering Kannur</p1>
+                <button>Download CV</button>
+                <button onclick="changecontend()">Know more</button>
+            <p id="know-more">I am doing my B-tech in electronics and communication. Currently, I am a 4th semester student.</p>
+            </div>
+        </div>
+    </section>
+    <!--About Section End-->
+    <!--Skills Section-->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="box card card-1">
+                <h3>Coding</h3>
+                <img src="window.png" alt="webdevelopment" height="100px" width="100px">
+                <p>Basic coding skills in C and Python Language.</p>
+            </div>
+           
+            <div class="box card card-1">
+                <h3>Design</h3>
+                <img src="edit-tools.png" alt="design" height="100px" width="100px">
+                <p>Basic designing skills using Canva.</p>
+            </div>
+        </div>
+    </section>
+    <!--Skills Section End-->
+    <!--Contact Section-->
+    <section style="background-color: #1b4b54;">
+        <br>
+    <section id="forms">
+        <div class="container">
+            <form style="text-align: center; justify-content: center;" onsubmit="return validation()">
+            <h2>Let's Connect</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="Name">Name:</label>
+                    <input id="name-input" type="text" name="name">
+                    <p id="name-validation">Enter name</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="E-mail">E-mail:</label>
+                    <input id="email-input" type="text" name="email">
+                    <p id="email-validation">Email cannot be empty</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="Message">Message:</label>
+                    <textarea cols="42" rows="5" tabindex="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input class="button" type="submit">
+                </div>
+            </form>
+            </form>
+        </div>
+    </section>
+        </br>
+    </section>
+    <!--Contact Section End-->
+    <!--Footer Section-->
+    <footer>
+        <div class="container">
+            <p>Ananya TV &copy; 2023 | All Rights Reserved</p>
+        </div>
+    </footer>
+    <!--Footer Section End-->
+</body>
+
+</html>
